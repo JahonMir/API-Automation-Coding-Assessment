@@ -5,7 +5,7 @@ const request = supertest('https://gorest.co.in/public-api/');
 //EXPECT as an assertion style
 const { expect } = require('chai');
 //please use your unique TOKEN below
-const myToken = 'dae263c38283088899747f3157a856e5bb252b92f4e1cd05795f884986b083b8';
+const myToken = 'your accsess token';
 
 describe('gorest.co.in API tests', async function() {
     
